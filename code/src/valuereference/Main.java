@@ -12,7 +12,7 @@ public class Main {
         changeInt(intValue);
         System.out.println(intValue);
 
-        // 包装类型
+        // 包装类型 - 不可变类
         Integer integerValue = 18;
         changeInt(integerValue);
         System.out.println(integerValue);
