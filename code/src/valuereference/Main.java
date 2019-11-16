@@ -14,7 +14,7 @@ public class Main {
 
         // 包装类型 - 不可变类
         Integer integerValue = 18;
-        changeInt(integerValue);
+        changeInteger(integerValue);
         System.out.println(integerValue);
 
         // String - 不可变类
@@ -22,7 +22,7 @@ public class Main {
         changeString(strValue);
         System.out.println(strValue);
 
-        // 自定义类
+//        // 自定义类
         Person person = new Person();
         person.setName("CSDN");
         person.setAge(18);
